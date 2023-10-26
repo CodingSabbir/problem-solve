@@ -36,3 +36,17 @@ const result=array.reduce((acc,curr)=>{
     return result
 }
 console.log(maxMumNumber([10,50,42,26,15,75,50,]))
+
+
+
+const sameArray=(arr1,arr2)=>{
+// console.log(arr1.length === arr2.length)
+
+
+for (let i=0; i<arr1.length; i++){
+   if(arr1[i]!==arr2[i]){
+    return false
+   }
+}
+}
+console.log(sameArray([1,2,3,4,5,6,7,8],[1,2,5,4,6,7,8]))
